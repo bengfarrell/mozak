@@ -42,5 +42,9 @@ export default {
                     }
                     
                 </style>`;
+    },
+
+    mapDOM(scope) {
+        return { strings: scope.querySelectorAll('mozak-string') };
     }
 }

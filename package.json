@@ -1,0 +1,7 @@
+{
+  "name": "mozak",
+  "version": "0.0.1",
+  "dependencies": {
+    "csshake": "^1.5.3"
+  }
+}

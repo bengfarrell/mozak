@@ -12,12 +12,12 @@ export default {
                     
                     mozak-string > .line.horizontal {
                         width: 100%;
-                        height: 2px;
+                        height: 1px;
                     }
                     
                     mozak-string > .line.vertical {
                         height: 100%;
-                        width: 2px;
+                        width: 1px;
                     }
                 </style>`;
     }
