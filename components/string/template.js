@@ -6,18 +6,18 @@ export default {
 
     style() {
         return `<style>
-                    mozak-string > .line {
-                        background-color: whitesmoke;
-                    }
-                    
                     mozak-string > .line.horizontal {
                         width: 100%;
-                        height: 1px;
+                        height: 2px;
+                        background-image: url("./assets/guitarstring-vertical.png");
+                        background-repeat: repeat-x;
                     }
                     
                     mozak-string > .line.vertical {
                         height: 100%;
-                        width: 1px;
+                        width: 2px;
+                        background-image: url("./assets/guitarstring-horizontal.png");
+                        background-repeat: repeat-y;
                     }
                 </style>`;
     }
