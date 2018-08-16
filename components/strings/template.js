@@ -1,10 +1,10 @@
 import String from '../string/string.js';
 
 export default {
-    html(direction) {
+    html(direction, numStrings, numFrets) {
         let result = `${this.style()}`;
         result += '<div class="spacer"></div>';
-        for (let c = 0; c < 5; c++) {
+        for (let c = 0; c < numStrings; c++) {
             result += `<mozak-string direction="${direction}"></mozak-string>`;
         }
 
